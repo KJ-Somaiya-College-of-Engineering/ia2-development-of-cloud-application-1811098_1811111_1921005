@@ -1,0 +1,19 @@
+.qty-chooser {
+  .qty-button {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0 10px 5px 10px;
+    border-radius: 0;
+    // margin: 0;
+  }
+  .decrease {
+    border-radius: 5px 0 0 5px;
+  }
+  .increase {
+    border-radius: 0 5px 5px 0;
+  }
+  span {
+    font-size: 1.2em;
+    padding: 0 10px;
+  }
+}

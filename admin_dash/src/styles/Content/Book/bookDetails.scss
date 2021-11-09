@@ -1,0 +1,57 @@
+.approval-container {
+  width: 200px;
+  flex: none;
+  height: 300px;
+  flex: none;
+  width: 120px;
+  position: absolute;
+  overflow: hidden;
+  .approval-tag {
+    position: absolute;
+    text-align: center;
+    transform: rotate(-45deg);
+    padding: 10px 20px;
+    width: 300px;
+    margin: 40px -90px;
+    z-index: 100;
+  }
+}
+
+.book-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+// .carousel-inner {
+//   display: flex;
+//   align
+// }
+
+.imgcarousel {
+  img {
+    max-height: 350px;
+    max-width: 100%;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  //   outline: black;
+  height: 40px;
+  width: 40px;
+  padding: 20px;
+  color: black;
+  background-color: var(--gray-dark);
+  background-size: 60%, 60%;
+  border-radius: 50%;
+  opacity: 1;
+  //   border: 1px solid black;
+  //   background-image: none;
+}
+
+.carousel-indicators {
+  li {
+    background-color: var(--gray-dark);
+  }
+}

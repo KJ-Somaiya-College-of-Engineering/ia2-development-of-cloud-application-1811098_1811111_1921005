@@ -1,0 +1,31 @@
+@import "../../assets/styles/breakpoints";
+// @import "../../assets/styles/customBootstrap";
+.order-details {
+  .headers {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .total {
+    text-align: right;
+  }
+
+  .item {
+    p {
+      margin: 3px 0;
+    }
+    margin-bottom: 10px;
+  }
+  .btn {
+    color: darkslategrey;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: $breakpoint-desktop) {
+  .shipping {
+    h1 {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  }
+}

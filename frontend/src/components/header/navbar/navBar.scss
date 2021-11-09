@@ -1,0 +1,103 @@
+.navbar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  // display: flex;
+  //   align-items: stretch; /* Default */
+  //   justify-content: space-around;
+  width: 75%;
+  //   background: #cacaca;
+  margin: 0 0 0 4%;
+  //   border: 1px solid red;
+  height: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  padding: 0;
+  li {
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    // font-weight: bold;
+    justify-content: center;
+    border: 1px solid #eee;
+    border-top: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    border-bottom: none;
+    // line-height: 40px;
+    text-align: center;
+    list-style-type: none;
+    // background: #fafafa;
+    &:hover {
+      color: var(--primary-color);
+    }
+    &:hover > .submenu {
+      display: flex;
+      color: black;
+    }
+
+    &:hover > .submenu li {
+      color: black;
+    }
+    & .submenu ul li:hover {
+      color: var(--primary-color);
+    }
+  }
+}
+
+.submenu {
+  transition: 1s;
+  background-color: white;
+  margin-left: 30vw;
+  justify-self: end;
+  margin-top: 354px;
+  z-index: 100;
+  display: flex;
+  background-color: white;
+  font-size: 1.2em;
+  position: absolute;
+  // height: 300px;
+  border: 1px solid #ddd;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0 20px;
+  box-sizing: border-box;
+  li {
+    transition: none;
+    width: 200px;
+    font-weight: normal;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 10px;
+    span {
+      font-weight: bold;
+      min-height: 200px;
+    }
+    ul {
+      transition: none;
+      padding: 0;
+      flex: 1;
+      border: none;
+      li {
+        list-style-type: none;
+        transition: 0.5s;
+        text-align: left;
+        height: 1.5;
+        border: none;
+        padding-left: 0;
+        text-transform: initial;
+
+        &:hover {
+          text-decoration: none;
+          padding-left: 10px;
+        }
+        word-wrap: break-word;
+      }
+    }
+  }
+}

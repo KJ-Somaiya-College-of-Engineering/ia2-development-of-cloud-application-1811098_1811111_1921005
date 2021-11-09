@@ -1,0 +1,46 @@
+.pagination-selector {
+  border: 2px solid #bbb;
+  padding: 5px;
+  .buttons {
+    transition: all 500ms ease;
+    cursor: pointer;
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+
+  .pagination-header {
+    text-align: center;
+    color: #555;
+  }
+}
+.pagination {
+  border: 2px solid #bbb;
+  .button {
+    padding: 10px;
+    color: #777;
+    transition: all 500ms ease;
+    &:hover {
+      color: #62ab00;
+    }
+    color: "#999";
+    text-align: center;
+    cursor: pointer;
+  }
+  .pageNum {
+    border: 2px solid #62ab00;
+    border-radius: 5px;
+    &:before {
+      content: "";
+      border-left: 2px solid #62ab00;
+      border-top: 2px solid #62ab00;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: -12px;
+      left: 38%;
+      background-color: white;
+      transform: rotate(45deg);
+    }
+  }
+}

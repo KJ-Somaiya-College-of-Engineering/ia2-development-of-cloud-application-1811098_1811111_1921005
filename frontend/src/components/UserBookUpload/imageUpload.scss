@@ -1,0 +1,35 @@
+.dropzone {
+  width: 100%;
+  background-color: #ddd;
+  margin-top: 20px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #aaa;
+  .text {
+    color: #666;
+  }
+}
+
+.img-container {
+  margin-top: 20px;
+  .img {
+    box-sizing: border-box;
+    // height: 150px;
+    // display: block;
+    .close-button {
+      background-color: var(--primary-color);
+
+      position: absolute;
+      padding: 5px;
+      cursor: pointer;
+      height: 30px;
+      width: 30px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      top: 5px;
+      right: 20px;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@import "./assets/styles/customBootstrap.scss";
+
+.btn-link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+.hover-link {
+  color: #000000;
+  transition: all 200ms ease-in-out;
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+.btn {
+  box-shadow: 0 0 4px #999;
+}
+
+.btn-ripple,
+.btn-dark-ripple {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  transition: all ease-in-out 0.2s;
+}
+.btn-dark-ripple::after {
+  background-color: #000000;
+}
+.btn-dark-ripple::after,
+.btn-ripple::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  height: 100%;
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 40%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all ease-in-out 0.5s;
+  transform: scale(5, 5);
+}
+
+.btn-dark-ripple:active::after .btn-ripple:active::after {
+  padding: 0;
+  margin: 0;
+  opacity: 0.4;
+  transition: 0s;
+  transform: scale(0, 0);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}

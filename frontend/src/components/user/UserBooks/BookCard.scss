@@ -1,0 +1,95 @@
+.book-card {
+  width: 100%;
+  box-sizing: border-box;
+  //   border-bottom: 1px solid #bbb;
+  font-size: 1.1em;
+  // padding: 30px 10px;
+
+  .book-img {
+    // width: 50% !important;
+    display: flex;
+    // margin-bottom: 10px;
+    padding: 10px 10px;
+    justify-content: center;
+
+    img {
+      //   width: 100%;
+      margin: 0 auto;
+      max-width: 100%;
+      max-height: 210px;
+    }
+  }
+
+  .prod-name {
+    //   border: 1px solid red;
+    font-size: 1.4em;
+    white-space: nowrap;
+    width: 100%;
+    font-size: 1.1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .prod-author,
+  .prod-publisher {
+    // font-size: 0.9em;
+    margin-bottom: 0 !important;
+    // text-align: center;
+    color: #555;
+    // padding: 0;
+    // margin: 5px 0;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ratings {
+    margin-top: 0;
+  }
+  .prod-description {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 0;
+  }
+  .prices {
+    // height: 1.7em;
+    font-size: 1.1em;
+    margin: 0;
+    // border: 1px solid red;
+    line-height: 1.7em;
+    .price {
+      color: green;
+      // font-weight: bold;
+      font-size: 1.4em;
+      height: 100%;
+    }
+    .actual-price {
+      // border: 1px solid red;
+      margin: 0 5px;
+      font-weight: lighter;
+      text-align: left;
+      text-decoration: line-through;
+      color: #999;
+      height: 100%;
+    }
+    .discount {
+      height: 10px;
+      font-size: 0.8em;
+      // padding: 0 2px;
+      margin-top: -10px;
+      // text-align: center;
+      color: maroon;
+      font-style: italic;
+      border-radius: 3px;
+      // background-color: maroon;
+    }
+  }
+
+  .right-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  // width: 100%;
+}

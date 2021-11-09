@@ -1,0 +1,49 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+.header {
+  height: 60px;
+  display: flex;
+  box-shadow: 0 -5px 8px 4px rgba(0, 0, 0, 0.5);
+  .name {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.sidebar {
+  width: 100px;
+  .sidebar-container {
+    margin-top: 30px;
+    .sidebar-item {
+      background-color: transparent;
+      // height: 60px;
+      cursor: pointer;
+      padding: 5px;
+      // line-height: 35px;
+      border-color: #ffffff;
+      .item {
+        text-transform: uppercase;
+        box-sizing: border-box;
+        // width: 100%;
+        font-size: 1.1em;
+        height: 50px;
+        line-height: 40px;
+        // padding: 5px;
+        //   font-weight: bold;
+        border-radius: 5px;
+        .text {
+          display: flex;
+          align-items: center;
+        }
+      }
+      .clicked {
+        background-color: #ffffff;
+        color: $dark;
+        //   margin: 2px;
+      }
+    }
+  }
+}

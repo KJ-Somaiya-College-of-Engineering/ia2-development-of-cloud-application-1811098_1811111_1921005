@@ -1,0 +1,47 @@
+@import "../../assets/styles/breakpoints";
+
+.footer-link {
+  //   text-decoration: underline;
+  margin: 10px 0;
+  transition: 0.5s;
+  color: lightgray;
+  &:hover {
+    text-decoration: underline;
+    color: white;
+    margin-left: 10px;
+  }
+}
+.social {
+  width: 100%;
+  h3 {
+    font-size: 1.8em;
+  }
+  margin-left: 0;
+}
+
+.bg-dark {
+  background-color: black !important;
+  color: lightgray !important;
+}
+
+.citations {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: $breakpoint-desktop) {
+  .social {
+    h3 {
+      font-size: 1.4em;
+      text-align: center;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .citations {
+    padding-bottom: 0;
+  }
+}

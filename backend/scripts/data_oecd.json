@@ -1,0 +1,83 @@
+[
+  { "name": "Dr DY Patil University", "city": "Navi Mumbai" },
+  { "name": "Fr C Rodrigues Institute of Technology", "city": "Navi Mumbai" },
+  { "name": "Ramrao Adik Institute of Technology", "city": "Navi Mumbai" },
+  {
+    "name": "Bharati Vidyapeeth College of Engineering",
+    "city": "Navi Mumbai"
+  },
+  {
+    "name": "Terna Public Charitable Trust's Terna Engineering College",
+    "city": "Navi Mumbai"
+  },
+  { "name": "Datta Meghe College of Engineering", "city": "Navi Mumbai" },
+  { "name": "Lokmanya Tilak College of Engineering", "city": "Navi Mumbai" },
+  { "name": "Pillai College of Engineering", "city": "Panvel" },
+  { "name": "Saraswati College of Engineering", "city": "Navi Mumbai" },
+  { "name": "SIES Graduate School of Technology", "city": "Navi Mumbai" },
+  {
+    "name": "Anjuman-I-Islam's Kalsekar Technical Campus",
+    "city": "Navi Mumbai"
+  },
+  {
+    "name": "Chhatrapati Shivaji Maharaj Institute of Technology",
+    "city": "Panvel"
+  },
+  {
+    "name": "Mahatma Gandhi Mission's College of Engineering and Technology",
+    "city": "Navi Mumbai"
+  },
+  {
+    "name": "Dr DY Patil Biotechnology and Bioinformatics Institute",
+    "city": "Navi Mumbai"
+  },
+  { "name": "AP Shah Institute of Technology", "city": "Thane" },
+  {
+    "name": "KC College of Engineering and Management Studies and Research",
+    "city": "Thane"
+  },
+  {
+    "name": "Jawahar Education Society's AC Patil College of Engineering",
+    "city": "Navi Mumbai"
+  },
+  { "name": "Shree LR Tiwari College of Engineering", "city": "Thane" },
+  { "name": "Smt Indira Gandhi College of Engineering", "city": "Navi Mumbai" },
+  {
+    "name": "Alamuri Ratnamala Institute of Engineering and Technology",
+    "city": "Thane"
+  },
+  { "name": "Viva Institute of Technology", "city": "Thane" },
+  { "name": "AC Patil College of Engineering", "city": "Navi Mumbai" },
+  { "name": "Bharat College of Engineering", "city": "Thane" },
+  { "name": "Vishwatmak Om Gurudev College of Engineering", "city": "Thane" },
+  { "name": "Agnel Polytechnic", "city": "Navi Mumbai" },
+  { "name": "Pillai Polytechnic", "city": "Navi Mumbai" },
+  { "name": "Government Polytechnic", "city": "Thane" },
+  { "name": "Saraswati Institute of Technology", "city": "Navi Mumbai" },
+  {
+    "name": "Excelsior Education Society KC College of Engineering",
+    "city": "Thane"
+  },
+  { "name": "Vidya Prasarak Mandal's Polytechnic", "city": "Thane" },
+  { "name": "Padmashree Dr DY Patil Polytechnic", "city": "Navi Mumbai" },
+  {
+    "name": "Maharashtra Mudran Parishads Institute of Printing Technology and Research",
+    "city": "Navi Mumbai"
+  },
+  {
+    "name": "Anjuman I Islam's AR Kalsekar Polytechnic",
+    "city": "Navi Mumbai"
+  },
+  { "name": "Balasaheb Mhatre Polytechnic", "city": "Thane" },
+  {
+    "name": "Pravin Patil College of Diploma Engineering and Technology",
+    "city": "Thane"
+  },
+  {
+    "name": "Bharati Vidyapeeth College of Architecture",
+    "city": "Navi Mumbai"
+  },
+  { "name": "Devi Mahalaxmi Polytechnic College", "city": "Thane" },
+  { "name": "Shantiniketan Polytechnic", "city": "Navi Mumbai" },
+  { "name": "Muchhala Polytechnic", "city": "Thane" }
+]

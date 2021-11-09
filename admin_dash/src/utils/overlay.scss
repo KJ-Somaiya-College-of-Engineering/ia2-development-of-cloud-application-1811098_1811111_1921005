@@ -1,0 +1,13 @@
+.overlay {
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  position: fixed;
+  // padding: 10px !important;
+  top: 0;
+  //   left: 0;
+  z-index: 10;
+
+  margin: 0;
+  transition: all 500ms ease;
+  // transition: 1s;
+}

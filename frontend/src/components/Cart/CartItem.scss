@@ -1,0 +1,61 @@
+@import "../../assets/styles/breakpoints";
+
+.item-container {
+  font-size: 0.9em;
+
+  border-bottom: 1px solid #bbb;
+  padding: 10px;
+  .imgDiv {
+    // border: 1px solid red;
+    height: 150px;
+    padding: 0;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+  }
+  .book-description {
+    padding: 7px 5px 5px 5px;
+    // border: 1px solid black;
+    .bookname {
+      //   margin-top: 5px;
+      line-height: 1.2;
+      white-space: normal;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      font-weight: bold;
+    }
+
+    .cost {
+      font-weight: bold;
+    }
+    p {
+      margin: 0;
+    }
+    .buttons-div {
+      margin: 0;
+      padding: 0;
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-around;
+      .button {
+        display: flex;
+        // border: 1px solid rebeccapurple;
+        justify-content: center;
+        align-items: center;
+        .remove-btn {
+          padding: 3px 7px 7px 7px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $breakpoint-desktop) {
+  .item-container {
+    font-size: 1.1em;
+  }
+}
