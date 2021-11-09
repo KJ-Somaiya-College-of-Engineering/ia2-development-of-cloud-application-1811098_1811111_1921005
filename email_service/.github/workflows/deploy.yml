@@ -1,0 +1,34 @@
+name: Test Build
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Node Install
+        run: |
+          npm install
+      - name: ZIP files
+        run: |
+          zip -r ./build.zip ./
+      - name: default deploy
+        uses: yvesgurcan/deploy-lambda-function@v0.0.5
+        with:
+          package: build.zip
+          function-name: email-service
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_SECRET_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
